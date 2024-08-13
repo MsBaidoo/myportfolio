@@ -1,4 +1,4 @@
-import {FaHome, FaUser,FaFileAlt,  FaEnvelope,FaTwitter, FaFacebookF, FaInstagram,FaLinkedinIn,} from 'react-icons/fa';
+import { FaHome, FaUser, FaFileAlt, FaEnvelope, FaTwitter, FaFacebookF, FaInstagram, FaLinkedinIn } from 'react-icons/fa';
 import eve from "../../../assets/images/eve.jpeg";
 import { useNavigate } from 'react-router-dom';
 
@@ -6,20 +6,22 @@ const Hero = () => {
   const navigate = useNavigate();
 
   return (
-    <div className="flex min-h-screen bg-white">
-      <div className="flex flex-col items-center justify-center space-y-6 p-4 bg-white shadow-lg">
+    <div className="flex flex-col lg:flex-row min-h-screen bg-white">
+      
+      <div className="flex lg:flex-col items-center justify-around lg:justify-center space-y-0 lg:space-y-6 p-4 bg-white shadow-lg lg:w-24 w-full">
         <SidebarIcon icon={<FaHome size="24" />} onClick={() => navigate("home")} />
         <SidebarIcon icon={<FaUser size="24" />} onClick={() => navigate("about")} />
         <SidebarIcon icon={<FaFileAlt size="24" />} onClick={() => navigate("resume")} />
         <SidebarIcon icon={<FaEnvelope size="24" />} onClick={() => navigate("contact")} />
       </div>
 
-      <div className="flex-grow flex items-center justify-center relative pr-96">
+      
+      <div className="flex-grow flex flex-col items-center justify-center relative lg:pr-96 p-6 lg:p-0">
         <div className="text-center z-10">
-          <h1 className="text-4xl font-bold text-gray-800 mb-4">
+          <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-800 mb-4">
             Evelyn Yaa Baidoo
           </h1>
-          <p className="text-lg text-gray-600 mb-6">
+          <p className="text-sm sm:text-lg text-gray-600 mb-6">
             Junior Web Developer || Customer Service - Digital Channel
           </p>
           <div className="flex justify-center space-x-4">
@@ -30,11 +32,11 @@ const Hero = () => {
           </div>
         </div>
 
-        <div className="absolute right-10 bottom-10">
+        <div className="absolute right-5 bottom-5 lg:right-10 lg:bottom-10 opacity-60 lg:opacity-60">
           <img
             src={eve}
             alt="Profile"
-            className="w-96 h-auto object-cover opacity-60"
+            className="w-48 h-auto lg:w-96 object-cover"
           />
         </div>
       </div>
