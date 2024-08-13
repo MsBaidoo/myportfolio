@@ -2,6 +2,7 @@ import About from "./components/about"
 import Contact from "./components/contact"
 import Hero from "./components/hero"
 import Resume from "./components/resume"
+import Skills from "./components/skills"
 
 
 
@@ -11,6 +12,7 @@ const LandingPage = () => {
 
             <Hero/>
             <About/>
+            <Skills/>
             <Resume/>
             <Contact/>
         </div>

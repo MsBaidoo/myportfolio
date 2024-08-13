@@ -3,16 +3,16 @@ import eve from "../../../assets/images/eve.jpeg";
 import { useNavigate } from 'react-router-dom';
 
 const Hero = () => {
-  const navigate = useNavigate();
+  
 
   return (
     <div className="flex flex-col lg:flex-row min-h-screen bg-white">
       
       <div className="flex lg:flex-col items-center justify-around lg:justify-center space-y-0 lg:space-y-6 p-4 bg-white shadow-lg lg:w-24 w-full">
-        <SidebarIcon icon={<FaHome size="24" />} onClick={() => navigate("home")} />
-        <SidebarIcon icon={<FaUser size="24" />} onClick={() => navigate("about")} />
-        <SidebarIcon icon={<FaFileAlt size="24" />} onClick={() => navigate("resume")} />
-        <SidebarIcon icon={<FaEnvelope size="24" />} onClick={() => navigate("contact")} />
+        <SidebarIcon icon={<FaHome size="24" />} />
+        <SidebarIcon icon={<FaUser size="24" />} />
+        <SidebarIcon icon={<FaFileAlt size="24" />}/>
+        <SidebarIcon icon={<FaEnvelope size="24" />}  />
       </div>
 
       
@@ -47,7 +47,7 @@ const Hero = () => {
 const SidebarIcon = ({ icon, onClick }) => (
   <div
     className="flex items-center justify-center w-12 h-12 bg-gray-200 rounded-full hover:bg-gray-300 cursor-pointer"
-    onClick={onClick}
+    
   >
     {icon}
   </div>

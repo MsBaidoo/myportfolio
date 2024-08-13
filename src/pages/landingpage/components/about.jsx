@@ -7,7 +7,7 @@ const About = () => {
       <h1 className="text-center text-3xl font-semibold mb-6">ABOUT</h1>
       <div className="text-center text-gray-700 mb-8">
         <p>
-        A self-driven, versatile, and disciplined individual, seeking to use my abilities, knowledge and skills developed through past work experience to benefit a dynamic organization and to also pursue a personal development program to meet the ever-changing business demands. I am very curious and always desire for new knowledge hence I love to learn new things and  take up new and challenging opportunities. I always strive to give my best in every environment I find myself in and to make an impact in the lives of others.  
+        Motivated Junior Front End Developer with a solid foundation in web development technologies, including HTML, CSS and JavaScript . Leveraging a background in customer service to bring a user-centric approach to design and problem-solving. Proven ability to communicate effectively, manage projects, and collaborate with cross-functional teams. Eager to apply technical skills and a strong work ethic to contribute to dynamic web development projects.
 
         </p>
       </div>
