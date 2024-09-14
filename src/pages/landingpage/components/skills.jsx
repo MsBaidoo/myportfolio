@@ -1,4 +1,4 @@
-import React from 'react';
+
 
 const skills = [
   ["Proficient with the use of Html,Css,JavaScript and React", "Excellent with the use of Git & GitHub"],

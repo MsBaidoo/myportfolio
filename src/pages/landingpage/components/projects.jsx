@@ -10,7 +10,7 @@ const Projects = () => {
         <p>Take a look at some of the projects I have worked on.</p>
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-        {/* Task Manager Platform Card */}
+        
         <div className="border rounded-lg shadow-lg overflow-hidden">
           <img src={tasker} alt="Task Manager Platform" className="w-full h-48 object-cover" />
           <div className="p-4">
@@ -35,7 +35,7 @@ const Projects = () => {
           </div>
         </div>
 
-        {/* Online Portfolio Platform Card */}
+        
         <div className="border rounded-lg shadow-lg overflow-hidden">
           <img src={port} alt="Online Portfolio Platform" className="w-full h-48 object-cover" />
           <div className="p-4">
@@ -60,7 +60,7 @@ const Projects = () => {
           </div>
         </div>
 
-        {/* Event Platform Card */}
+        
         <div className="border rounded-lg shadow-lg overflow-hidden">
           <img src={event} alt="Event Platform" className="w-full h-48 object-cover" />
           <div className="p-4">

@@ -1,7 +1,5 @@
 import { FaHome, FaUser, FaFileAlt, FaEnvelope, FaTwitter, FaFacebookF, FaInstagram, FaLinkedinIn } from 'react-icons/fa';
 import eve from "../../../assets/images/eve.jpeg";
-import { useNavigate } from 'react-router-dom';
-import { Github } from 'lucide';
 import { GrGithub } from 'react-icons/gr';
 
 const Hero = () => {
