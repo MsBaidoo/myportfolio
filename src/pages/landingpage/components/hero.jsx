@@ -30,7 +30,7 @@ const Hero = () => {
             <a href="https://github.com/MsBaidoo/mobile-wallet-fraud-database" target="_blank" rel="noopener noreferrer">
               <SocialIcon icon={<GrGithub />} />
             </a>
-            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+            <a href="https://web.facebook.com/evelyn.baidoo.12" target="_blank" rel="noopener noreferrer">
               <SocialIcon icon={<FaFacebookF />} />
             </a>
             <a href="https://www.instagram.com/_baidoo_?igsh=djQ4MDNyZ3R6aXVu&utm_source=qr" target="_blank" rel="noopener noreferrer">

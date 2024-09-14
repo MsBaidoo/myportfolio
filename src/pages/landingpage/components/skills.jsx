@@ -1,7 +1,7 @@
 import React from 'react';
 
 const skills = [
-  ["Proficient with the use of Html,Css,JavaScript and React", "Quality Time Management"],
+  ["Proficient with the use of Html,Css,JavaScript and React", "Excellent with the use of Git & GitHub"],
   ["Excellent Communication & Interpersonal Skills", "Quality Time Management"],
   ["Proficient with Customer Service", "Good Leadership Skills"],
   ["Execellent Delivery of Result even under Pressure", "Execellent Detailed Organization Skills"],
