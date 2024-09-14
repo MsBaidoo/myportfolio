@@ -19,7 +19,7 @@ Contact Form: Allows visitors to send messages directly via the website.
 
 **Technologies Used**
 
-Frontend: React, JavaScript, Tailwind CSS
+Frontend: React, JavaScript,Html , Tailwind CSS
 
 Version Control: Git, GitHub 
 
