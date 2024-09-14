@@ -83,8 +83,12 @@ const Resume = () => {
                     <h2 className="text-xl font-semibold mb-4 text-blue-500">Ecobank Ghana PLC</h2>
                     <li>CX Bravo Awards for excellent service delivery for the month of July 2023.</li>
 
-
                 </ul>
+                <div className='p-8'>
+                    <a href="https://docs.google.com/file/d/1IhQ1QvS7QgXVIf_dFxGrEmEQz75UNKFd/edit?usp=docslist_api&filetype=msword" target="_blank" rel="noopener noreferrer" class="inline-flex items-center px-4 py-2 bg-blue-600 text-white font-semibold rounded hover:bg-blue-700">
+                        <i class="fas fa-download mr-2"></i> Download My Resume</a>
+                </div>
+
             </section>
         </div>
     );
