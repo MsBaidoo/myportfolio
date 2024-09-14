@@ -1,6 +1,8 @@
 import { FaHome, FaUser, FaFileAlt, FaEnvelope, FaTwitter, FaFacebookF, FaInstagram, FaLinkedinIn } from 'react-icons/fa';
 import eve from "../../../assets/images/eve.jpeg";
 import { GrGithub } from 'react-icons/gr';
+import React from 'react';
+
 
 const Hero = () => {
 

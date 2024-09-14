@@ -1,3 +1,4 @@
+import React from 'react';
 import { createBrowserRouter, RouterProvider } from "react-router-dom"
 import RootLayout from "./layout/rootlayout"
 import Hero from "./pages/landingpage/components/hero"

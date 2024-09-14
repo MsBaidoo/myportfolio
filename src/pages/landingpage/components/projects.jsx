@@ -1,6 +1,8 @@
 import tasker from "../../../assets/images/tasker.jpg";
 import port from "../../../assets/images/port.jpg";
 import event from "../../../assets/images/event.png";
+import React from 'react';
+
 
 const Projects = () => {
   return (
